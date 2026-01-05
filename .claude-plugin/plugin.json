@@ -1,33 +1,8 @@
 {
   "name": "dart-lsp",
-  "version": "0.1.0",
   "description": "Dart Language Server Protocol integration for Claude Code - provides intelligent code analysis, completions, and navigation for Dart and Flutter projects",
+  "version": "0.1.0",
   "author": {
     "name": "pmatheus"
-  },
-  "keywords": ["dart", "flutter", "lsp", "language-server", "code-analysis"],
-  "license": "MIT",
-  "lsp": {
-    "dart": {
-      "command": "dart",
-      "args": ["language-server"],
-      "filePatterns": ["**/*.dart"],
-      "initializationOptions": {
-        "onlyAnalyzeProjectsWithOpenFiles": true,
-        "suggestFromUnimportedLibraries": true,
-        "closingLabels": true,
-        "outline": true,
-        "flutterOutline": true
-      },
-      "settings": {
-        "dart": {
-          "enableSdkFormatter": true,
-          "lineLength": 80,
-          "completeFunctionCalls": true,
-          "showTodos": true,
-          "renameFilesWithClasses": "prompt"
-        }
-      }
-    }
   }
 }

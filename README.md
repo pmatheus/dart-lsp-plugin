@@ -17,19 +17,31 @@ A Claude Code plugin that integrates the Dart Language Server Protocol (LSP) for
 
 ## Installation
 
-In Claude Code, run `/plugins` and then:
+### Method 1: GitHub Marketplace (Recommended)
 
-### 1. Add the marketplace (one-time setup)
+```bash
+# In Claude Code:
+/plugin marketplace add pmatheus/dart-lsp-plugin
 
-```
-add marketplace https://raw.githubusercontent.com/pmatheus/dart-lsp-plugin/main
+# Install the plugin
+/plugin install dart-lsp
 ```
 
-### 2. Install the plugin
+### Method 2: Manual Installation
 
+```bash
+# Clone to plugins directory
+cd ~/.claude/plugins
+git clone https://github.com/pmatheus/dart-lsp-plugin.git dart-lsp
+
+# Restart Claude Code or refresh plugins
 ```
-install dart-lsp
-```
+
+### Verification
+
+After installation:
+- Run `/plugin list` to verify `dart-lsp` appears
+- Open any `.dart` file - LSP activates automatically
 
 ## Usage
 

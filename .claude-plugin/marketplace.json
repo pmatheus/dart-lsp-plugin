@@ -8,10 +8,16 @@
   "plugins": [
     {
       "name": "dart-lsp",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "source": "./",
       "description": "Dart Language Server Protocol integration - provides intelligent code analysis, completions, and navigation for Dart and Flutter projects",
-      "keywords": ["dart", "flutter", "lsp", "language-server", "code-analysis"],
+      "keywords": [
+        "dart",
+        "flutter",
+        "lsp",
+        "language-server",
+        "code-analysis"
+      ],
       "author": {
         "name": "pmatheus"
       },

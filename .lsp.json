@@ -1,0 +1,13 @@
+{
+    "dart": {
+        "command": "dart language-server",
+        "args": [],
+        "extensionToLanguage": {
+            ".dart": "dart"
+        },
+        "transport": "stdio",
+        "initializationOptions": {},
+        "settings": {},
+        "maxRestarts": 3
+    }
+}

@@ -6,10 +6,6 @@
         ],
         "extensionToLanguage": {
             ".dart": "dart"
-        },
-        "transport": "stdio",
-        "initializationOptions": {},
-        "settings": {},
-        "maxRestarts": 3
+        }
     }
 }

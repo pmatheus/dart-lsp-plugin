@@ -2,7 +2,8 @@
     "dart": {
         "command": "dart",
         "args": [
-            "language-server"
+            "language-server",
+            "--protocol=lsp"
         ],
         "extensionToLanguage": {
             ".dart": "dart"
